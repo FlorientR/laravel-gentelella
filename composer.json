@@ -1,6 +1,6 @@
 {
     "name": "florientr/laravel-gentelella",
-    "description": "The Laravel 5.3 framework with Gentelella template",
+    "description": "The Laravel 5.4 framework with Gentelella template",
     "keywords": [
       "framework",
       "laravel",
@@ -16,12 +16,13 @@
       "css"
     ],
     "license": "MIT",
-    "version": "4.0.0",
+    "version": "4.1.0",
     "type": "project",
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.4.*",
-        "thomaswelton/laravel-gravatar": "~1.0"
+        "thomaswelton/laravel-gravatar": "~1.0",
+        "rtconner/laravel-tagging": "~2.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

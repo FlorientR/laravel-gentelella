@@ -4,6 +4,9 @@ Laravel-gentelella is a Laravel 5.4 application with all Gentelella template com
 
 ## Change log
 
+### 4.1
+- Add system of tag : **[Laravel-tagging](https://github.com/rtconner/laravel-tagging/tree/laravel-5)**
+
 ### 4.0
 - Laravel-Gentelella run now on Laravel 5.4 !
 
@@ -118,17 +121,17 @@ bower install
 gulp
 ```
 
+Configure your ```.env``` file and run :
+```
+php artisan migrate
+```
+
 ###UPDATE 2.0
 
 Add auth support !
 
 **WARNING** : For auth support, configure your ```.env``` file with ```database``` and ```smtp``` connection !
 
-For install auth support, run this follow command
-
-```
-php artisan migrate
-```
 
 You are ready for a new Laravel 5.4 application with Gentelella template !!
 

@@ -147,7 +147,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-	Illuminate\Notifications\NotificationServiceProvider::class,
+        Illuminate\Notifications\NotificationServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -157,8 +157,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\BroadcastServiceProvider::class,
-	
-	Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class
+
+		Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class,
+		Conner\Tagging\Providers\TaggingServiceProvider::class,
     ],
 
     /*
