@@ -32,6 +32,8 @@
 
                 @yield('main_container')
 
+                @include('includes/footer')
+
             </div>
         </div>
 

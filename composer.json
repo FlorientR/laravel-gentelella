@@ -7,6 +7,7 @@
       "laravel 5.4",
       "gentelella",
       "laravel-gentelella",
+      "laravel-permission",
       "template",
       "bootstrap",
       "responsive",
@@ -19,7 +20,7 @@
       "form html"
     ],
     "license": "MIT",
-    "version": "4.3.0",
+    "version": "4.4.0",
     "type": "project",
     "require": {
         "php": ">=5.6.4",
@@ -27,7 +28,8 @@
         "thomaswelton/laravel-gravatar": "~1.0",
         "rtconner/laravel-tagging": "~2.2",
         "laravelcollective/html": "^5.3.0",
-	  	"watson/bootstrap-form": "1.1.*"
+	  	"watson/bootstrap-form": "1.1.*",
+        "spatie/laravel-permission": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
